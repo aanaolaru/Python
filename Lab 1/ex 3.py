@@ -1,12 +1,13 @@
+# Write a script that receives two strings 
+# and prints the number of occurrences of the first string in the second.
 
-def count_substring(sub_string, string):
-    l=len(sub_string)
+def count_occurrences(string1, string2):
     count=0
-    for i in range(len(string)-len(sub_string)+1):
-        if(string[i:i+len(sub_string)] == sub_string ):      
+    for i in range(len(string2)-len(string1)+1):
+        if string2[i:i+len(string1)] == string1 :      
             count+=1
     return count
 
-sub_string = input()
-string = input()
-print(count_substring(sub_string, string))   
+string1 = input()
+string2 = input()
+print(count_occurrences(string1, string2))   

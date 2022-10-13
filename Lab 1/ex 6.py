@@ -1,12 +1,13 @@
+# Write a function that validates if a number is a palindrome.
 
 def palindrome(n):
-  temp=n
-  rev=0
-  while(n>0):
-    dig=n%10
-    rev=rev*10+dig
-    n=n//10
-  if(temp==rev):
+  copy=n
+  pal=0
+  while(n > 0):
+    pal = pal*10 + n % 10
+    n = n//10
+
+  if(copy==pal):
     print("The number is a palindrome!")
   else:
     print("The number isn't a palindrome!")

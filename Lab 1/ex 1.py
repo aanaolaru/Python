@@ -1,20 +1,20 @@
+# Find The greatest common divisor of multiple numbers read from the console.
 
 def find_gcd(x, y):
     while(y):
         x, y = y, x % y
     return x
 
-l=[]  
+array=[]  
 n = int(input("Enter number of elements : "))
 for i in range(0, n):
     number = int(input())
-    l.append(number)
+    array.append(number)
  
-num1 = l[0]
-num2 = l[1]
-gcd = find_gcd(num1, num2)
+
+gcd = find_gcd(array[0], array[1])
  
-for i in range(2, len(l)):
-    gcd = find_gcd(gcd, l[i])
+for i in range(2, len(array)):
+    gcd = find_gcd(gcd, array[i])
      
-print(gcd)
+print("GCD:", gcd)
