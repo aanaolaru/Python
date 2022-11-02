@@ -1,0 +1,3 @@
+C:\Program Files\Windows Mail\wab.exe
+C:\Program Files\Windows Mail\wabimp.dll
+C:\Program Files\Windows Mail\wabmig.exe
