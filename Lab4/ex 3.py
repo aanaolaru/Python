@@ -30,5 +30,5 @@ def function(my_path):
   elif os.path.isfile(my_path):  
      print(File(my_path) ) 
   
-function('C:\\Program Files\\TeamViewer')
-#function('C:\\Users\\Alina\\Desktop\\Python\\Lab4\\text.txt')
+#function('C:\\Program Files\\TeamViewer')
+function('C:\\Users\\Alina\\Desktop\\Python\\Lab4\\fisier_ex3.txt')

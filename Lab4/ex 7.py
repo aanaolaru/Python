@@ -11,4 +11,4 @@ def function(path):
 
 
 
-function('text.txt')
+function('C:\\Users\\Alina\\Desktop\\Python\\Lab4\\fisier_ex3.txt')
