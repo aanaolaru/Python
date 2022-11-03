@@ -22,4 +22,4 @@ def function(target, to_search):
     else:
         raise ValueError("target nu e fisier sau director")
 
-
+print(function('C:\\Program Files\\Mozilla Firefox', 'A'))

@@ -1,3 +1,6 @@
-C:\Program Files\Windows Mail\wab.exe
-C:\Program Files\Windows Mail\wabimp.dll
-C:\Program Files\Windows Mail\wabmig.exe
+C:\Program Files\Mozilla Firefox\Accessible.tlb
+C:\Program Files\Mozilla Firefox\AccessibleHandler.dll
+C:\Program Files\Mozilla Firefox\AccessibleMarshal.dll
+C:\Program Files\Mozilla Firefox\updated\Accessible.tlb
+C:\Program Files\Mozilla Firefox\updated\AccessibleHandler.dll
+C:\Program Files\Mozilla Firefox\updated\AccessibleMarshal.dll

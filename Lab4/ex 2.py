@@ -13,4 +13,4 @@ def func(director, fisier):
            
     f.close()      
 
-func('C:\\Program Files\\Windows Mail', 'C:\\Users\\Alina\\Desktop\\Python\\Lab4\\fisier_ex2.txt')
+func('C:\\Program Files\\Mozilla Firefox', 'C:\\Users\\Alina\\Desktop\\Python\\Lab4\\fisier_ex2.txt')
