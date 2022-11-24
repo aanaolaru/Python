@@ -1,0 +1,5 @@
+<root>
+  <form1 class="url" type="text" value="http://www.example.com" name="url-form" data-id="item" ></form1>
+  <form2 class="download" name="download-form" data-id="page"></form2>
+  <form3 class="analytics" type="submit" value="Submit" name="analytics-form" data-id="item"></form3>
+</root>

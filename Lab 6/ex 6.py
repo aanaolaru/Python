@@ -10,10 +10,8 @@ def function(text):
             result.append(word)
     censure = []
     for word in result:
-        # replace characters from odd positions with * 
+        # replace characters from odd positions with * in word  
         censure.append(re.sub(r'(.)(.)', r'\1*', word))
     return censure
 
 print(function("Ana are mere si pere"))
-
-

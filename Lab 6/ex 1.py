@@ -3,7 +3,7 @@
 import re
 
 def extract_words(text):
-    words = re.findall('[a-zA-Z1-9]+',text)
-    return words
+    return re.findall('\w+', text)
 
-print(extract_words("Hello world!"))
+print(extract_words("6R0T4A8% BF1 E #W@9 HI$MN*32V$5G P7Q"))
+

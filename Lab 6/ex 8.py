@@ -10,6 +10,6 @@ def print_files(path, regex):
     for f in files_in_dir:
         if os.path.isfile(path + "/" + f):
             if re.match(regex, f) and re.search(regex, f):
-                print(">>" + f)
-            elif re.match(regex, f) or re.search(regex, f):
+                print(">>" + f) 
+            elif re.match(regex, f) or re.search(regex, f): 
                 print(f)
